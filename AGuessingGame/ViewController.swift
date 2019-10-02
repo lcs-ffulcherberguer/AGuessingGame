@@ -12,6 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
     
     // MARK: Properties
+    @IBOutlet weak var submittedGuess: UITextField!
     let targetNumber = Int.random(in: 1...100)
     
     // MARK: Initializers
